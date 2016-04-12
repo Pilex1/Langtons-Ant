@@ -129,21 +129,6 @@ public class LangtonsAnt extends JPanel {
 
 	}
 
-	// @Override
-	// public void update(Graphics g) {
-	// for (int i = 0; i < pixels.length; i++) {
-	// for (int j = 0; j < pixels[0].length; j++) {
-	// g.setColor(pixels[i][j]);
-	// g.fillRect(i, j, size - (gap ? 1 : 0), size - (gap ? 1 : 0));
-	// }
-	// }
-	// for (Ant ant : ants) {
-	// g.setColor(Color.RED);
-	// g.fillRect(ant.x * size, ant.y * size, size - (gap ? 1 : 0), size - (gap
-	// ? 1 : 0));
-	// }
-	// }\
-
 	private Color nextColour(int i) {
 		if (i == colours.length - 1) {
 			return colours[0];
