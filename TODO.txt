@@ -1,0 +1,17 @@
+
+*******************************************POSSIBLE FEATURES TO ADD*******************************************
+
+thread and performance optimizations (program seems to use ~25% of my cpu, when it first starts up with nothing running)
+ability to change the pixel size without the need to clear the screen (possibly by implementing a hashmap)
+allow user to change UI background colour, and colours for the ant and its surroundings
+save user preferences (either through serialization of parts or all of the UI, or through the Preferences class which is something I would like to look at)
+add option to save and load custom rules
+better timing/speed control - lower speeds need to go slower, higher speeds need to go faster, and if possible, a transition into unlimited speed
+
+
+
+*******************************************BUGS*******************************************
+000001: the more ants you add, the faster the animation seems to go - try W1N1N1E1, and add multiple ants
+FIXED 000002: possible bug with ants not correctly looping from the edge of the world (use custom rule R2L, and compare animation with and without edge looping; may just be intended)
+000003: setting pixel size to 1 causes extreme lag - i think it cant keep up with the rendering; it works fine at 2px, but at 1px it has to draw 4 times as much stuff
+FIXED 000004: very long custom rule will stretch out the gui indefinitely
