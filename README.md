@@ -2,6 +2,14 @@
 
 A highly customizable Langton's Ant renderer built with Java Swing.
 
+If you just want to run the program, the executable JAR file is `langtonsant.jar` which you can run from the command line by
+
+```bash
+java -jar langtonsant.jar
+```
+
+in the root directory.
+
 ## Demos
 
 https://user-images.githubusercontent.com/18298476/179881426-4218798d-d07a-4755-b81b-f08643a227fc.mp4
